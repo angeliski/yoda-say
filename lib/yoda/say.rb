@@ -1,6 +1,6 @@
 require "yoda/say/version"
 require "yoda/say/railtie"
-require "yoda/say/engine"
+require "yoda/say/app"
 
 module Yoda
   module Say

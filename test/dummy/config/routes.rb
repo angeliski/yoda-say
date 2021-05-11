@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  mount Yoda::Say::Engine => '/yoda'
+  mount Yoda::Say::App => '/yoda'
 end
