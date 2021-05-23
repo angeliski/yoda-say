@@ -10,6 +10,6 @@ class HomeControllerTest < ActiveSupport::TestCase
   test 'succeeds' do
     get '/yoda'
     assert last_response.ok?
-    assert last_response.body == '{"yoda_say":""}'
+    assert_match /"yoda_say"/, last_response.body
   end
 end
